@@ -1,5 +1,8 @@
-def full_title(page_title)
-  base_title = "Company FaceIT"
+
+
+
+ def full_title(page_title)#include.ApplicationHelper
+      base_title = "Company FaceIT"
   if page_title.empty?
     base_title
   else
